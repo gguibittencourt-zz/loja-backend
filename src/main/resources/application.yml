@@ -1,0 +1,16 @@
+spring:
+  activemq:
+    broker-url: tcp://localhost:61616
+    user: admin
+    password: admin
+
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: loja
+
+fila:
+  pedido: pedido
+server:
+  port: 8080
